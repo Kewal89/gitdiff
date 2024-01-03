@@ -37,12 +37,12 @@ a. The Problem Statement was to create a full stack application that will show c
 
 ...
 
-## 5. Known Limitations
-1. Error Handling at Backend as well as Frontend is missing.
-2. Invalid Commit ID or any invalid data is not yet parsed at backend.
+## 5. Known Limitations (Time Constraints)
+1. Error Handling at Backend as well as Frontend is missing due to the time limit and can be impletemented to enhance user experience.
+2. Invalid Commit ID or any invalid data is not yet parsed at backend which can Internal Server Error whcih neeeds to be handled.
 3. Only test cases are present for  `<Difference />` Component due to time limit.
 4. Support is limited to Added or Modified Files. Removed, Empty and assets (svg, png etc) are unsupported.
-5. GitHub REST API Rate Limits can cause white page issue.
+5. GitHub REST API Rate Limits can cause white page issue due to GitHub Standard Rate Limiting Protocol.
 ...
 
 ...
@@ -54,6 +54,7 @@ a. The Problem Statement was to create a full stack application that will show c
 ## 7. Future Improvements
 1. Error Handling for Backend and Frontend can be added.
 2. Support for Empty, Removed and assets (svg, png etc) files.
+3. More test cases for Components and Modules can be added.
 ...
 
 ## 8. Setup and Running Instructions
