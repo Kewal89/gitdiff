@@ -18,10 +18,12 @@ a. The Problem Statement was to create a full stack application that will show c
 
 ## 3. Technology Stack
 
-1. React.js for Frontend
-2. TypeScript for Type checking
-3. Node.js for Backend
-4. GitHub REST API for Metadata.
+1. `React.js` for Frontend
+2. `TypeScript` for Type checking
+3. `Node.js` for Backend
+4. `GitHub REST API` for Metadata.
+5. `Mobx` for Global State Management.
+6. `Jest` for testing.
    ...
 
 ## 4. Implementation Details
