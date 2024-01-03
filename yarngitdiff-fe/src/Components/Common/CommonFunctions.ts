@@ -7,16 +7,16 @@ const numberToText = (number: number) => {
   const numberText = [
     'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
     'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'
-  ];
+  ]
 
   if (number < 20) {
-    return numberText[number];
+    return numberText[number]
   } else if (number < 100) {
-    const tens = Math.floor(number / 10);
-    const remainder = number % 10;
-    return `${numberText[tens * 10]} ${remainder > 0 ? numberText[remainder] : ''}`;
+    const tens = Math.floor(number / 10)
+    const remainder = number % 10
+    return `${numberText[tens * 10]} ${remainder > 0 ? numberText[remainder] : ''}`
   } else {
-    return 'Number out of range';
+    return 'Number out of range'
   }
 }
 

@@ -110,7 +110,7 @@ const parsePatch = (patchString) => {
   return hunks
 }
 
-async function fetchCommitDiff(owner, repository, baseOid, headOid) {
+const fetchCommitDiff = async (owner, repository, baseOid, headOid) => {
   const githubApiUrl = `https://api.github.com/repos/${owner}/${repository}/compare/${baseOid}...${headOid}`
 
   console.info("Data :", githubApiUrl)
