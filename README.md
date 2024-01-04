@@ -16,6 +16,10 @@
 2. Run `yarn install` (Recommended) or `npm install` to install required `node_modules`
 3. Run `yarn start` (Recommended) to start the Frontend Project.
 4. Once project starts, you can navigate to `http://localhost:3000/repositories/ownerName/repoName/commit/commtiHash` to view the UI.
+5. e.g, 
+http://localhost:3000/repositories/facebook/react/commit/45d61cf7effdba6bbd9835bb427c99c95beb7e17
+
+http://localhost:3000/repositories/facebook/react-native/commit/82f8cf1836cf49e35ff29b5fd830c431d9272edd
 
 
 ## 3. Notes
