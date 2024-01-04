@@ -3,11 +3,14 @@ const axios = require("axios")
 const dayjs = require("dayjs")
 const { gitResponse, baseGitResponse } = require("./github.res")
 const jsonDiff = require("fast-json-patch")
+var cors = require('cors')
 
 const app = express()
 const port = 5000
 
 app.use(express.json())
+app.use(cors())
+
 const TEST = false
 
 async function fetchParentCommit(owner, repository, headOid) {
